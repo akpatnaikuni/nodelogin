@@ -1,0 +1,24 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "sample login page",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjayKumarPatnaikuni/SampleNode-loginapp.git"
+  },
+  "author": "Ajay <ajaykumarpatnaikuni@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjayKumarPatnaikuni/SampleNode-loginapp/issues"
+  },
+  "homepage": "https://github.com/AjayKumarPatnaikuni/SampleNode-loginapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1"
+  }
+}
