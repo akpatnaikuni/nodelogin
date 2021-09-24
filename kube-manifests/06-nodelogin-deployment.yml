@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodelogin
-          image: ajju13/nodelogin:1.0.0
+          image: ajju13/node-login:1.0.0
           ports:
             - containerPort: 3000
           env:
