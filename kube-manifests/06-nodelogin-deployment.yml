@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodelogin
+  labels:
+    app: nodelogin
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nodelogin
+  template:
+    metadata:
+      labels:
+        app: nodelogin
+    spec:
+      containers:
+        - name: nodelogin
+          image: ajju13/nodelogin:1.0.0
+          ports:
+            - containerPort: 3000
+          env:
+            - name: DB_HOSTNAME
+              value: "mysql"
+            - name: DB_PORT
+              value: "3306"
+            - name: DB_NAME
+              value: "nodelogin"
+            - name: DB_USERNAME
+              value: "root"
+            - name: DB_PASSWORD
+              value: "dbpassword11"
+
