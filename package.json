@@ -8,14 +8,14 @@
       },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AjayKumarPatnaikuni/SampleNode-loginapp.git"
+    "url": "git+https://github.com/akpatnaikuni/nodelogin.git"
   },
-  "author": "Ajay <ajaykumarpatnaikuni@gmail.com>",
+  "author": "Ajay <akpatnaikuni@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AjayKumarPatnaikuni/SampleNode-loginapp/issues"
+    "url": "https://github.com/akpatnaikuni/nodelogin/issues"
   },
-  "homepage": "https://github.com/AjayKumarPatnaikuni/SampleNode-loginapp#readme",
+  "homepage": "https://github.com/akpatnaikuni/nodelogin#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-session": "^1.17.1",
